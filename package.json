@@ -1,0 +1,37 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "a template for web apps",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "hint": "^6.1.4",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.19.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrRamoun/WEBDEV.git"
+  },
+  "author": "Ramoun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrRamoun/WEBDEV/issues"
+  },
+  "homepage": "https://github.com/MrRamoun/WEBDEV#readme"
+}

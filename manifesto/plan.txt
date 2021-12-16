@@ -1,0 +1,60 @@
+** all of this is part of the freestyle department (section 3: totally from scratch)[section 2: guideded][section 1: N/A]
+* if it can be done through a third-party, it should be done through a 3rd party
+
+0) lay-ground
+	1- list all requirements.
+	2- Come with your own ideas and features & list them.
+	3- check how others implement that.
+	4- decide if your gonna:
+		- rely on 3-rd party service.
+		- use an api of a 3-rd party service.
+		- do the whole thing on your own from scratch.
+
+1) 0-phase
+	1- what is product: webapp, App
+	2- what do we want to deliver:
+		"this is a portfolio webapp",
+		"this is a modern minimal skeumorphic webapp",
+		"simple to use"
+	3- what do we stand for: "simplicity"
+	4- what is new: "the most minimal webapp in the world (currently)"
+	5- how to make it alive: "through cool animations"
+	6- (audit): [ ]
+
+2) content
+	1- important topics: N/A
+	2- what do we want to deliver through content: N/A
+	3- use \0-phase\ as refrence and guide: N/A
+	4- skeetch a structure visual vin shapes(SITEMAP): N/A
+	5- (audit): N/A
+	> all content management is defered to later.
+
+3) ui & design
+	> designes are done through a 3rd-party
+	1- msg or expressive: msg
+	2- if msg {feeling/idea}: feeling
+	3- if expressive {what do u want to express & how to express in a way that serves the idea}: N/A
+	4- use \0-phase\ && \content\ as guide: N/A
+	5- see previous tries and judge them according to your pov: N/A
+	6- start sketching: N/A
+	7- prepare softwares and tools: N/A
+	8- start implementation: N/A
+	9- (audit): [ ]
+
+4) coding
+		1- user :all-previous: as guide
+	2- use "setup project guide" to create a new project
+	3- add designs and prepration material to the manifesto
+	4- add a checklist for project requirements
+	5- start design on paper (paradigm and so on)
+	6- prepare software and tools
+	7- start implementation
+	8- (audit)
+
+5) testing
+	1- user :all-previous: as guide
+	2- start on paper
+	3- determine the tests needed and how to implement them
+	4- start implementation
+	5- (audit)
+6) (audit)
