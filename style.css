@@ -1,0 +1,673 @@
+:root {
+ --black: #272a31;
+ --orange: #ec5242;
+ --gray: #d3d3d3;
+}
+
+@font-face {
+    font-family: "COCOGOOSE";
+    src: url(./fonts/Cocogoose_trial.woff) format("woff"),
+    url(./fonts/Cocogoose_trial.eot) format("eot"),
+    url(./fonts/Cocogoose_trial.ttf) format("truetype"),
+    url(./fonts/Cocogoose_trial.svg) format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*,
+body,
+body * {
+  outline: none;
+  box-sizing: border-box;
+  font-family: Lato;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.menu-img {
+    position: relative;
+    top: -40px;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.6;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.my-logo {
+    display: none;
+}
+
+.main-nav {
+    position: absolute;
+    inset: 0;
+    background-color: var(--orange);
+    transform: translateX(-100%);
+    transition: 0.5s;
+    z-index: 10;
+    backdrop-filter: blur(0.25rem);
+  }
+
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .main-nav-active {
+    transform: translateX(0%);
+  }
+  
+  .exit {
+    position: absolute;
+    right: 40px;
+    top: 25px;
+  }
+  
+  .main-nav li {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--gray);
+    margin-bottom: 25px;
+  }
+  
+  .ul-list {
+    flex-direction: column;
+    margin: 50px;
+  }
+
+  .ul-list li {
+      list-style: none;
+  }
+
+  .ul-list a {
+    color: var(--black);
+    margin-right: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+h1,h4 {
+    color: var(--orange);
+    font-family: "COCOGOOSE";
+    margin: 0;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.padding-x {
+  padding-inline : 8vw;
+  background-image: url(./images/duotone4.png);
+  padding-block: 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+
+p {
+    color: var(--black);
+    line-height: 25px;
+}
+
+.date {
+    font-family: "COCOGOOSE";
+    font-size: 20px;
+}
+
+.time-place {
+    padding: 10px;
+}
+
+.time-place p {
+   line-height: 0;
+}
+
+.font-big {
+    font-size: 15px;
+}
+
+.image {
+    width: 2rem;
+    height: 2rem;
+}
+
+.dept {
+    padding: 10px;
+}
+
+.elemnt {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 20px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+h2 {
+text-align: center; 
+}
+
+h5 {
+    font-family: "COCOGOOSE";
+    color: var(--orange);
+}
+
+.program {
+   /* background-image: url(./images/background/blackstriped.jpg);*/
+   background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elemnt p {
+    color: var(--gray);
+}
+
+.program h2 {
+    color: var(--gray);
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+  .btn {
+      color: var(--gray);
+      font-family: 'lato';
+      align-self: center;
+      background-color: var(--orange);
+      height: 90px;
+      font-size: 20px;
+      margin-bottom: 50px;
+  }
+
+  .empty-div {
+      width: 100%;
+      position: relative;
+  }
+
+  .empty-div::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: calc(50% - 25px);
+      width: 50px;
+      height: 3px;
+      background-color: var(--orange);
+  }
+
+  .speakers {
+    padding-inline : 8vw; 
+  }
+
+  .speakers h2 {
+    padding-top: 30px;
+    margin-top: 0;
+  }
+
+  .div-img {
+      position: relative;
+  }
+
+  .img-speaker {
+      position: relative;
+      z-index: 2;
+      height: 7rem;
+       margin-top: 15px;
+       margin-left: 15px;
+  }
+
+  .div-img::after {
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 50px;
+      width: 50px;
+      content:"";
+      background-image: url(./images/Chess_Board.svg);
+      background-size: contain;
+  }
+
+
+  /*
+  .img-speaker2 {
+    height: 3rem; 
+    position: absolute;
+    top: auto;
+  }
+
+  .img-speaker2::before {
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 75);
+}*/
+
+
+.speakers {
+    background-color: var(--gray);
+}
+
+  .spk {
+      display: flex;
+      gap: 1.7rem;
+  }
+
+  .spk h3 {
+      margin: 5px;
+  }
+
+  .about-it {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .about-it p {
+      line-height: 22px;
+  }
+
+  h6 {
+      color: var(--orange);
+      font-family: 'lato';
+      font-size: 15px;
+      margin: 0;
+      padding: 0;
+  }
+
+  /* about me*/
+
+  .para-back {
+    background-color: rgba(255,255,255,1.4);
+    padding: 15px;
+}
+
+.h-about {
+    margin-bottom: 10px;
+    opacity: 0.9;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    font-family: 'lato';
+}
+
+.second-part {
+    padding: 15px;
+    font-family: 'lato';
+}
+
+.mail {
+    font-family: "COCOGOOSE";
+    color: var(--black);
+}
+
+.logo-img {
+    margin-top: 40px;
+  background-color: rgba(255,255,255,1.4);
+  border: 1px solid var(--gray);
+}
+
+.line {
+    border-bottom: 3px solid var(--gray);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.logo-info {
+    padding-inline : 8vw; 
+}
+
+.about-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-about {
+    margin-bottom: 15px;
+}
+
+.empty-about::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: calc(50% - 25px);
+    width: 50px;
+    height: 3px;
+    background-color: var(--black);
+    opacity: 0.5;
+}
+
+.conf-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 20px;
+}
+
+.conf {
+    width: 350px;
+    height: 200px;
+}
+
+.partner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 30px;
+}
+
+.bg-part {
+    background-color: var(--black);
+}
+
+.head-part {
+    color: var(--gray);
+    padding-top: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.p-img {
+    width: 7rem;
+    height: 3rem;
+    margin-top: 25px;
+}
+
+.end {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 2rem;
+    font-family: 'lato';
+}
+
+.end h3 {
+    font-family: "COCOGOOSE";
+}
+
+end p {
+    color: var(--gray);
+}
+
+.nav-top {
+    display: none;
+}
+
+.grid-dis {
+padding-top: 40px;
+}
+
+.head-align {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 370px) {
+    .date {
+        font-size: 10px;
+    }  
+    .font-big {
+        font-size: 10px;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .home-phone {
+        display: none;
+    }
+
+    .see-prog {
+        display: none;
+    }
+    .ul-list button {
+        display: none;
+    }
+
+}
+
+@media  screen and (min-width :768px) {
+    .menu-img {
+        display: none;
+    }
+ 
+    .exit {
+        display: none;
+    }
+
+    .date {
+        font-size: 35px;
+    }
+
+    .font-big {
+        font-size: 20px;
+    }
+    
+    .padding-x{
+        padding-inline: 0;
+    }
+
+  .nav-top {
+      display: flex;
+      width: 100%;
+      background-color: var(--black);
+      height: 5.5vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+
+  .top-list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding-right: 200px;
+    font-family: 'lato';
+  }
+
+  .top-list a{
+      color: var(--gray);
+      text-decoration: none;
+      font-size: 15px;
+  }
+
+  .top-list img {
+      width: 24px;
+      height: 24px;
+  }
+  
+  .header {
+    padding:0;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .main-nav {
+    all: unset;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: -26px;
+    background-color: #fff;
+  }
+
+    .ul-list {
+        all: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        transition: 0.8s;
+        margin: 0;
+        padding: 0;
+        padding-right: 200px;
+        font-family: 'lato';
+        align-items: center;
+    }
+
+    .ul-list li {
+        height: 0;
+    }
+
+    .ul-list a {
+        font-family: 'lato';
+    }
+
+    #un-camp {
+        border: 6px solid var(--orange);
+        color: var(--orange);
+        padding: 10px;
+        font-size: 20px;
+        margin-top: -20px;
+     }
+    
+    .my-logo {
+        display: flex;
+        height: 4.5rem;
+        padding-left: 120px;
+        margin-bottom: 10px;
+    }
+
+    .home {
+        padding-inline: 8vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        m
+    }
+
+    .home h1 {
+        font-size: 3rem;
+    }
+
+    .home h4 {
+        font-family: 'lato';
+        font-size: 3rem;
+    }
+
+    .p-border {
+        max-width: 550px;
+        background-color: #AAADB5;
+        padding: 18px;
+        border: 4px solid #fff;
+        color: var(--black);
+    }
+
+
+    .time-place p {
+        margin: 40px;
+    }
+
+
+    .ul-list li a{
+        font-size: 20px;
+    }
+
+
+    .dept {
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .elemnt {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin: 2px;
+        margin-top: 40px;
+    }
+
+    .elemnt h5 {
+        margin: 0;
+        letter-spacing: 2px;
+    }
+
+    .see-prog {
+        color: var(--gray);
+        margin: 60px;
+    }
+
+    .image {
+        width: 4rem;
+        height: 5rem;
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .speakers {
+        background-color: var(--gray);
+    }
+
+    .spk {
+        margin : 15px;
+    }
+
+    .spk h3 {
+        margin: 5px;
+    }
+
+    .grid-dis {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+    
+    .header-about {
+        display: none;
+    }
+
+    .head-align {
+        text-align: center;
+    }
+    
+    .para-back {
+        padding: 18px;
+    }
+
+    .second-part {
+        text-align: center;
+    }
+
+    .conf-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .about-desk {
+        display: none;
+    }
+
+    .end-about {
+        background-color: var(--black);
+        color: var(--gray);
+    }
+    .end-about p {
+        color: var(--gray);
+    }
+}
