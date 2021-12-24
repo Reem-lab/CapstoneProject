@@ -33,12 +33,9 @@
 
  Platform | Badge |
  --- | --- |
- **GitHub**  | [](https://github.com/Reem-lab)
- **Twitter** | [](https://twitter.com/Rem79940127)
- **LinkdIn** | [](https://www.linkedin.com/in/reem-janina-ab74ab21a/)
-
-
-
+ **GitHub**  | [@Reem-lab](https://github.com/Reem-lab)
+ **Twitter** | [Rem79940127](https://twitter.com/Rem79940127)
+ **LinkdIn** | [reem-janina](https://www.linkedin.com/in/reem-janina-ab74ab21a/)
 
 
 ## 🤝 Contributing
