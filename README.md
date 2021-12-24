@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[See My project Live here](https://livedemo.com)
+[See My project Live here](https://reem-lab.github.io/CapstoneProject/)
 
 ## Video of the project description
 
