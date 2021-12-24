@@ -33,9 +33,9 @@
 
  Platform | Badge |
  --- | --- |
- **GitHub**  | [![@mrramoun](https://img.shields.io/github/followers/MrRamoun?label=Ramoun&style=social)](https://github.com/Reem-lab)
- **Twitter** | [![@ramoun16](https://img.shields.io/twitter/follow/ramoun16?label=ramoun16&style=social)](https://twitter.com/Rem79940127)
- **LinkdIn** | [![Linkedin Badge](https://img.shields.io/badge/-Ramoun-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/ramoun)](https://www.linkedin.com/in/reem-janina-ab74ab21a/)
+ **GitHub**  | [](https://github.com/Reem-lab)
+ **Twitter** | [](https://twitter.com/Rem79940127)
+ **LinkdIn** | [](https://www.linkedin.com/in/reem-janina-ab74ab21a/)
 
 
 
@@ -53,7 +53,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- The Original design idea by (https://www.behance.net/adagio07) in Behance.
+- The Original design idea by [Behance](https://www.behance.net/adagio07) in Behance.
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
