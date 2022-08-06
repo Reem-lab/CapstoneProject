@@ -2,7 +2,7 @@
 
 # UNICEF'S ANNUAL HUMAN SUPPORT CONFERENCE
 
-> .This project is Myfirst Capstobe project Like real world Projects, It is about a conference for charitable organization to help needy people, orphans and refugees made with html,css and javascript
+> .This project is Myfirst Capstone project Like real world Projects, It is about a conference for charitable organization to help needy people, orphans and refugees made with html,css and javascript
 
 
 <img src="images/Mobile.PNG" width="30%" /><img src="images/desktop.PNG" width="70%" />
